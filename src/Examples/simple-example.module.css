@@ -4,4 +4,6 @@
 
 .ModalContent {
   background-color: rgb(20, 124, 42);
+  display: flex;
+  flex-direction: column;
 }

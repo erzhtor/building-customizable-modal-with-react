@@ -16,7 +16,8 @@ export const ModalSimpleExample = () => {
         onDismiss={handleClose}
       >
         <Modal.Content className={styles.ModalContent}>
-          I'm a fancy modal
+          <h2>I'm a fancy modal</h2>
+          <Button onClick={handleClose}>Close</Button>
         </Modal.Content>
       </Modal>
     </div>

@@ -1,19 +1,25 @@
+:root {
+  --modal-overlay-color: rgba(66, 66, 66, 0.2);
+}
+
 .ModalOverlay {
-  background-color: rgba(182, 104, 41, 0.185);
+  background-color: var(--modal-overlay-color);
 }
 
 .ModalContent {
-  background-color: rgb(206, 95, 44);
-  width: 250px;
-  height: 150px;
+  background-color: white;
+  width: 350px;
+  height: 180px;
   display: flex;
   flex-direction: column;
 }
 
 .ModalOverlay2 {
-  background-color: rgba(188, 238, 207, 0.473);
+  background-color: var(--modal-overlay-color);
 }
 
 .ModalContent2 {
-  background-color: rgb(85, 158, 91);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
 }
