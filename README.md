@@ -2,7 +2,7 @@
 
 This repo was created for the blog post.
 
-## Running
+## Commands
 
 `yarn start` - run in dev mode
 
