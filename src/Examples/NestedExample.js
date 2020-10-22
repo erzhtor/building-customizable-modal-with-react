@@ -22,14 +22,14 @@ export const ModalNestedExample = () => {
       >
         <Modal.Content className={styles.ModalContent}>
           I'm a fancy Modal
-          <Button onClick={handleOpen2}>Show 2nd Modal</Button>
+          <Button onClick={handleOpen2}>Show Nested Modal</Button>
           <Modal
             className={styles.ModalOverlay2}
             open={isOpen2}
             onDismiss={handleClose2}
           >
             <Modal.Content className={styles.ModalContent2}>
-              I'm a fancy Modal inside another Modal
+              I'm a fancy Nested Modal!
             </Modal.Content>
           </Modal>
         </Modal.Content>

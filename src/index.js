@@ -8,7 +8,7 @@ import styles from "./styles.module.css";
 const App = () => (
   <Fragment>
     <main className={styles.App}>
-      <h1>Welcome to Modal Example!</h1>
+      <h1>Hello, Modal with React!</h1>
       <div className={styles.Container}>
         <ModalSimpleExample />
         <ModalNestedExample />

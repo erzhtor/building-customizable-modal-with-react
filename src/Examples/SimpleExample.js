@@ -9,7 +9,7 @@ export const ModalSimpleExample = () => {
   const handleClose = useCallback(() => setIsOpen(false), []);
   return (
     <div>
-      <Button onClick={handleOpen}>Show Modal Example</Button>
+      <Button onClick={handleOpen}>Show Simple Modal</Button>
       <Modal
         className={styles.ModalOverlay}
         open={isOpen}
